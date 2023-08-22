@@ -642,6 +642,12 @@
 /*PNG decoder library*/
 #define LV_USE_PNG 0
 
+/**
+ * PNG decoder library with libpng16,libz
+ * faster on linux/macos/windows
+ */
+#define LV_USE_LIBPNG 0
+
 /*BMP decoder library*/
 #define LV_USE_BMP 0
 
